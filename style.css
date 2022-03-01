@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.container {
+    background-image: url(https://th.bing.com/th/id/OIP.QgSO8YPMn5ORgPIWTYRxBgHaE8?w=279&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 100%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px;
+    border: 3px solid rgba(151, 10, 0, 0.3);
+    border-radius: 12px;
+    background: rgb(255,255,255,0.4);
+    border-radius: 60px;
+    box-shadow: 0px, 12px ,4px rgb(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.card img{
+   width: 140px;
+   border-radius: 50%;
+}
+.card h2{
+   font-size: 40px;
+   font-weight: 600;
+   margin-top:30px ;
+}
+.card .icons img{
+   width: 40px;
+   border-radius: 50%;
+   margin: 20px 5px;
+      }
+.card .icons img:hover{
+   background: #01ffc0;
+}
+.btn{
+   text-decoration: none;
+   font-size: 20px;
+   display: inline-block;
+   background-color: #fff;
+   color: #01ffc0;
+   padding: 12px;
+   border-radius: 12px;
+   margin: 30px 10px ;
+}
